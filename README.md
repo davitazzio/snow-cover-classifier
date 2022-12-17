@@ -87,23 +87,23 @@ that are mostly not influenced by the atmosphere variations. In
 particular, Sentinel 2 satellite acquires data in a period of
 observation between 17 and 32 minutes, creating a single interpolated
 map of the area. Bands of the Multispectral sensor are referred to the
-visible light and to the infrared [@multispectral]:
+visible light and to the infrared:
 
-   **Sentinel-2 bands**         **usage**         **Central wavelength**   **Bandwidth**   **Spatial resolution**
+    **Sentinel-2 bands**         **usage**         **Central wavelength**   **Bandwidth**   **Spatial resolution**
   ---------------------- ----------------------- ------------------------ --------------- ------------------------
-        Band 01               Coastal aerosol           442.2  nm             21  nm               60  m 
-        Band 02                   Blue                  492.1  nm             66  nm               10  m
-        Band 03                   Green                 559.0  nm             36  nm               10  m 
-        Band 04                    Red                  664.9  nm             31  nm               10  m 
-        Band 05            Vegetation red edge          703.8  nm             16  nm               20  m
-        Band 06            Vegetation red edge          739.1  nm             15  nm               20  m
-        Band 07            Vegetation red edge          779.7  nm             20  nm               20  m
-        Band 08                    NIR                  832.9  nm            106  nm               10  m
-       Band 08A                Narrow NIR               864.0  nm             22  nm               20  m
-        Band 09               Water vapour              943.2  nm             21  nm               60  m
-        Band 10              SWIR -- Cirrus            1376.9  nm             30  nm               60  m
-        Band 11                   SWIR                 1610.4  nm             94  nm               20  m
-        Band 12                   SWIR                 2185.7  nm            185  nm               20  m
+       `Band 01`` `         *Coastal aerosol*           442.2 *nm*            21 *nm*              60 *m*
+       `Band 02`` `              *Blue*                 492.1 *nm*            66 *nm*              10 *m*
+       `Band 03`` `              *Green*                559.0 *nm*            36 *nm*              10 *m*
+       `Band 04`` `               *Red*                 664.9 *nm*            31 *nm*              10 *m*
+       `Band 05`` `       *Vegetation red edge*         703.8 *nm*            16 *nm*              20 *m*
+       `Band 06`` `       *Vegetation red edge*         739.1 *nm*            15 *nm*              20 *m*
+       `Band 07`` `       *Vegetation red edge*         779.7 *nm*            20 *nm*              20 *m*
+       `Band 08`` `               *NIR*                 832.9 *nm*           106 *nm*              10 *m*
+      `Band 08A`` `           *Narrow NIR*              864.0 *nm*            22 *nm*              20 *m*
+       `Band 09`` `          *Water vapour*             943.2 *nm*            21 *nm*              60 *m*
+       `Band 10`` `         *SWIR -- Cirrus*           1376.9 *nm*            30 *nm*              60 *m*
+       `Band 11`` `              *SWIR*                1610.4 *nm*            94 *nm*              20 *m*
+       `Band 12`` `              *SWIR*                2185.7 *nm*           185 *nm*              20 *m*
 
   : Band specifics captured by multyspectral instruments on *Sentinel
   II* Satellites
