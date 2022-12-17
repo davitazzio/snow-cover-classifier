@@ -1,9 +1,9 @@
 
 # Snow Cover Classifier from Satellite Images
-##  Project work on Data Mining M\
-##  Computer Engineering Master Program\
-##  University of Bologna\
-  \
+  Project work on Data Mining M
+  Computer Engineering Master Program
+  University of Bologna
+  
   \
   Student\
   Davide Tazzioli\
