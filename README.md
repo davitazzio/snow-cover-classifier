@@ -47,7 +47,7 @@ insight: the combination of precipitation, temperature and snow coverage
 data, for instance, could forecast abnormal events on the flow of
 rivers; information for the correct management of drinking water
 reserves, starts from the information about the snow trend during the
-winter; also agriculture can benefit of this information [@copernicus].
+winter; also agriculture can benefit of this information [1].
 
 ## Sentinel-Hub Project
 
@@ -55,7 +55,7 @@ Sentinel-2 is a space mission by ESA; it is part of the Copernicus
 program, which intends to monitor the green areas of the planet and
 provide support in the management of natural disasters. It consists of
 two identical satellites, Sentinel-2A and Sentinel-2B
-[@enwiki:1105470108] It offers satellite images of the entire earth's
+[2] It offers satellite images of the entire earth's
 surface in the areas between the 84S and 84N meridians; their
 multi-spectrum sensors offer information from visible light to infrared.
 The resolution of the data allows a ground detail of 10, 20 and 60
@@ -74,36 +74,36 @@ co-registration, feature extraction, classification, etc. Eo-learn
 library acts as a bridge between Earth observation/Remote sensing field
 and Python ecosystem for data science, machine learning and
 visualization; it uses NumPy arrays to store and handle remote sensing
-data [@eo-learn_introduction].
+data [3].
 
 ## Machine Learning for soil classification
 
 Research on the observation of the earth's soil with surveying
 instruments installed on satellites, began in the second half of the 9th
 century as a part of space exploration by America and Russia.
-[@Landcoverclassification] Nowadays, sensors are specific and accurate,
+[4] Nowadays, sensors are specific and accurate,
 and the work on the data collector software, allows us to have values
 that are mostly not influenced by the atmosphere variations. In
 particular, Sentinel 2 satellite acquires data in a period of
 observation between 17 and 32 minutes, creating a single interpolated
 map of the area. Bands of the Multispectral sensor are referred to the
-visible light and to the infrared [@multispectral]:
+visible light and to the infrared:
 
    **Sentinel-2 bands**         **usage**         **Central wavelength**   **Bandwidth**   **Spatial resolution**
   ---------------------- ----------------------- ------------------------ --------------- ------------------------
-       `Band 01`` `         _Coastal aerosol_           442.2 _nm_            21 *nm*              60 *m*
-       `Band 02`` `              _Blue_                 492.1 _nm_            66 *nm*              10 *m*
-       `Band 03`` `              _Green_                559.0 _nm_            36 *nm*              10 *m*
-       `Band 04`` `               _Red_                 664.9 _nm_            31 *nm*              10 *m*
-       `Band 05`` `       _Vegetation red edge_         703.8 _nm_            16 *nm*              20 *m*
-       `Band 06`` `       _Vegetation red edge_         739.1 _nm_            15 *nm*              20 *m*
-       `Band 07`` `       _Vegetation red edge_         779.7 _nm_            20 *nm*              20 *m*
-       `Band 08`` `               _NIR_                 832.9 _nm_           106 *nm*              10 *m*
-      `Band 08A`` `           _Narrow NIR_              864.0 _nm_            22 *nm*              20 *m*
-       `Band 09`` `          _Water vapour_             943.2 _nm_            21 *nm*              60 *m*
-       `Band 10`` `         _SWIR -- Cirrus_           1376.9 _nm_            30 *nm*              60 *m*
-       `Band 11`` `              _SWIR_                1610.4 _nm_            94 *nm*              20 *m*
-       `Band 12`` `              _SWIR_                2185.7 _nm_           185 *nm*              20 *m*
+        Band 01               Coastal aerosol           442.2  nm             21  nm               60  m 
+        Band 02                   Blue                  492.1  nm             66  nm               10  m
+        Band 03                   Green                 559.0  nm             36  nm               10  m 
+        Band 04                    Red                  664.9  nm             31  nm               10  m 
+        Band 05            Vegetation red edge          703.8  nm             16  nm               20  m
+        Band 06            Vegetation red edge          739.1  nm             15  nm               20  m
+        Band 07            Vegetation red edge          779.7  nm             20  nm               20  m
+        Band 08                    NIR                  832.9  nm            106  nm               10  m
+       Band 08A                Narrow NIR               864.0  nm             22  nm               20  m
+        Band 09               Water vapour              943.2  nm             21  nm               60  m
+        Band 10              SWIR -- Cirrus            1376.9  nm             30  nm               60  m
+        Band 11                   SWIR                 1610.4  nm             94  nm               20  m
+        Band 12                   SWIR                 2185.7  nm            185  nm               20  m
 
   : Band specifics captured by multyspectral instruments on *Sentinel
   II* Satellites
@@ -143,7 +143,7 @@ parameters:
 
 The last index is often used to classify snow coverage from satellite
 images, just applying different thresholds. *NASA portal for earth
-observation* [@nasa_portal] offers maps of the whole globe on different
+observation* [5] offers maps of the whole globe on different
 aspects registered by the sensors on their satellites. The snow
 monitoring portal, indeed, offers maps of the only NDSI pure index, and
 maps of a simple classification based on this index. The threshold value
@@ -185,7 +185,7 @@ limitation imposed by Sentinel Hub portal on the download of data.
 ## Ground truth Data
 
 Ground truth data are obtained by the validation work of NASA maps
-[@tesi_ceci]: from NASA satellite data NDSI map is calculated thought a
+[6]: from NASA satellite data NDSI map is calculated thought a
 validation work using ground station values, a specific threshold is
 calculated to distinguish snow areas, iced cloud and areas without
 snow.\
@@ -206,3 +206,12 @@ downloading, the application with the machine learining training phase
 should be ported on a cloud application. Finally, a more interactive
 data visualization application can be easily obtained, eventualy
 integrating a web client to automatically obtain data from cloud.
+
+# References 
+[5]  Earth observatory. (n.d.). https://earthobservatory.nasa.gov.
+[3]  Eo-learn Contributors. (2018). Introduction – eo-learn documentation. https://eo-learn.readthedocs.io/en/latest/index.html#introduction.
+[1]  High resolution snow and ice monitoring. (n.d.). https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring.
+[4]  Lubej, M. (2018). Land cover classification with eo-learn: Part 1. Sentinel Hub Blog.
+[6]  Magnani, C. (2022). Sviluppo e validazione di mappe di copertura nevosa per lo studio di variabilit`a del
+manto nevoso in emilia romagna nel periodo 2000-2020.
+[2]  Wikipedia Contributors. (2022). Sentinel-2 — Wikipedia, the free encyclopedia. https://en.wikipedia.org/w/index.php?title=Sentinel-2&oldid=1105470108. ([Online; accessed 19-September- 2022])
