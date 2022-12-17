@@ -87,7 +87,7 @@ that are mostly not influenced by the atmosphere variations. In
 particular, Sentinel 2 satellite acquires data in a period of
 observation between 17 and 32 minutes, creating a single interpolated
 map of the area. Bands of the Multispectral sensor are referred to the
-visible light and to the infrared:
+visible light and to the infrared [@multispectral]:
 
    **Sentinel-2 bands**         **usage**         **Central wavelength**   **Bandwidth**   **Spatial resolution**
   ---------------------- ----------------------- ------------------------ --------------- ------------------------
@@ -208,10 +208,12 @@ data visualization application can be easily obtained, eventualy
 integrating a web client to automatically obtain data from cloud.
 
 # References 
-[5]  Earth observatory. (n.d.). https://earthobservatory.nasa.gov.
-[3]  Eo-learn Contributors. (2018). Introduction – eo-learn documentation. https://eo-learn.readthedocs.io/en/latest/index.html#introduction.
-[1]  High resolution snow and ice monitoring. (n.d.). https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring.
-[4]  Lubej, M. (2018). Land cover classification with eo-learn: Part 1. Sentinel Hub Blog.
+
+[1]  High resolution snow and ice monitoring. (n.d.). https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring. \
+[2]  Wikipedia Contributors. (2022). Sentinel-2 — Wikipedia, the free encyclopedia. https://en.wikipedia.org/w/index.php?title=Sentinel-2&oldid=1105470108. ([Online; accessed 19-September- 2022]) \
+[3]  Eo-learn Contributors. (2018). Introduction – eo-learn documentation. https://eo-learn.readthedocs.io/en/latest/index.html#introduction. \
+[4]  Lubej, M. (2018). Land cover classification with eo-learn: Part 1. Sentinel Hub Blog. \
+[5]  Earth observatory. (n.d.). https://earthobservatory.nasa.gov. \
 [6]  Magnani, C. (2022). Sviluppo e validazione di mappe di copertura nevosa per lo studio di variabilit`a del
 manto nevoso in emilia romagna nel periodo 2000-2020.
-[2]  Wikipedia Contributors. (2022). Sentinel-2 — Wikipedia, the free encyclopedia. https://en.wikipedia.org/w/index.php?title=Sentinel-2&oldid=1105470108. ([Online; accessed 19-September- 2022])
+
