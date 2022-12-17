@@ -6,7 +6,7 @@
   Student: Davide Tazzioli\
   `davide.tazzioli@studio.unibo.it`
 
-## abstract: 
+## Abstract: 
   This paper reports the work and the consequent consideration on a
   satellite images classifier, specified on the recognition and the
   monitoring of land snow cove. Satellite images are from Sentinel 2
@@ -24,7 +24,7 @@
 **Keywords:** Classification, Image Classification, Land Cover
 Classification, Visualization\
 
-# Content
+## Content
 
 New technologies on airborne ground monitoring are offering lot of new
 possibilities, even thanks to the development and cost reduction of
@@ -91,19 +91,19 @@ visible light and to the infrared [@multispectral]:
 
    **Sentinel-2 bands**         **usage**         **Central wavelength**   **Bandwidth**   **Spatial resolution**
   ---------------------- ----------------------- ------------------------ --------------- ------------------------
-       `Band 01`` `         *Coastal aerosol*           442.2 *nm*            21 *nm*              60 *m*
-       `Band 02`` `              *Blue*                 492.1 *nm*            66 *nm*              10 *m*
-       `Band 03`` `              *Green*                559.0 *nm*            36 *nm*              10 *m*
-       `Band 04`` `               *Red*                 664.9 *nm*            31 *nm*              10 *m*
-       `Band 05`` `       *Vegetation red edge*         703.8 *nm*            16 *nm*              20 *m*
-       `Band 06`` `       *Vegetation red edge*         739.1 *nm*            15 *nm*              20 *m*
-       `Band 07`` `       *Vegetation red edge*         779.7 *nm*            20 *nm*              20 *m*
-       `Band 08`` `               *NIR*                 832.9 *nm*           106 *nm*              10 *m*
-      `Band 08A`` `           *Narrow NIR*              864.0 *nm*            22 *nm*              20 *m*
-       `Band 09`` `          *Water vapour*             943.2 *nm*            21 *nm*              60 *m*
-       `Band 10`` `         *SWIR -- Cirrus*           1376.9 *nm*            30 *nm*              60 *m*
-       `Band 11`` `              *SWIR*                1610.4 *nm*            94 *nm*              20 *m*
-       `Band 12`` `              *SWIR*                2185.7 *nm*           185 *nm*              20 *m*
+       `Band 01`` `         _Coastal aerosol_           442.2 _nm_            21 *nm*              60 *m*
+       `Band 02`` `              _Blue_                 492.1 _nm_            66 *nm*              10 *m*
+       `Band 03`` `              _Green_                559.0 _nm_            36 *nm*              10 *m*
+       `Band 04`` `               _Red_                 664.9 _nm_            31 *nm*              10 *m*
+       `Band 05`` `       _Vegetation red edge_         703.8 _nm_            16 *nm*              20 *m*
+       `Band 06`` `       _Vegetation red edge_         739.1 _nm_            15 *nm*              20 *m*
+       `Band 07`` `       _Vegetation red edge_         779.7 _nm_            20 *nm*              20 *m*
+       `Band 08`` `               _NIR_                 832.9 _nm_           106 *nm*              10 *m*
+      `Band 08A`` `           _Narrow NIR_              864.0 _nm_            22 *nm*              20 *m*
+       `Band 09`` `          _Water vapour_             943.2 _nm_            21 *nm*              60 *m*
+       `Band 10`` `         _SWIR -- Cirrus_           1376.9 _nm_            30 *nm*              60 *m*
+       `Band 11`` `              _SWIR_                1610.4 _nm_            94 *nm*              20 *m*
+       `Band 12`` `              _SWIR_                2185.7 _nm_           185 *nm*              20 *m*
 
   : Band specifics captured by multyspectral instruments on *Sentinel
   II* Satellites
