@@ -6,6 +6,8 @@
   Student: Davide Tazzioli\
   `davide.tazzioli@studio.unibo.it`
 
+**Not reported in the project report:**_the use of __Support Vector Classifier__ and __Random Forest Classifier__ to train the model is not reported in the report and is not include in final evaluation, because it was added to the project after the report publication._
+
 ## Abstract: 
   This paper reports the work and the consequent consideration on a
   satellite images classifier, specified on the recognition and the
