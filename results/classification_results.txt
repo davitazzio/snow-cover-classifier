@@ -1,0 +1,226 @@
+========================================
+# Tuning hyper-parameters for precision
+
+----------------------------------------
+Trying model Decision Tree
+
+Best parameters set found on train set:
+
+{'max_depth': 9}
+
+Grid scores on train set:
+
+0.242 (+/-0.000) for {'max_depth': 1}
+0.496 (+/-0.003) for {'max_depth': 2}
+0.752 (+/-0.003) for {'max_depth': 3}
+0.745 (+/-0.009) for {'max_depth': 4}
+0.763 (+/-0.017) for {'max_depth': 5}
+0.776 (+/-0.004) for {'max_depth': 6}
+0.780 (+/-0.011) for {'max_depth': 7}
+0.783 (+/-0.005) for {'max_depth': 8}
+0.790 (+/-0.008) for {'max_depth': 9}
+0.789 (+/-0.007) for {'max_depth': 10}
+0.788 (+/-0.006) for {'max_depth': 11}
+0.784 (+/-0.005) for {'max_depth': 12}
+0.779 (+/-0.005) for {'max_depth': 13}
+0.773 (+/-0.004) for {'max_depth': 14}
+0.766 (+/-0.006) for {'max_depth': 15}
+0.761 (+/-0.006) for {'max_depth': 16}
+0.754 (+/-0.006) for {'max_depth': 17}
+0.749 (+/-0.006) for {'max_depth': 18}
+0.743 (+/-0.007) for {'max_depth': 19}
+0.738 (+/-0.009) for {'max_depth': 20}
+0.733 (+/-0.007) for {'max_depth': 21}
+0.730 (+/-0.008) for {'max_depth': 22}
+0.727 (+/-0.006) for {'max_depth': 23}
+0.725 (+/-0.007) for {'max_depth': 24}
+
+Detailed classification report for the best parameter set:
+
+The model is trained on the full train set.
+The scores are computed on the full test set.
+
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.94      0.92     54990
+         1.0       0.57      0.34      0.43      6458
+         2.0       0.86      0.85      0.86     13929
+
+    accuracy                           0.87     75377
+   macro avg       0.78      0.71      0.73     75377
+weighted avg       0.86      0.87      0.86     75377
+
+
+
+execution time : 0:01:06.321023
+
+----------------------------------------
+Trying model Gaussian Naive Bayes
+
+Best parameters set found on train set:
+
+{'var_smoothing': 1}
+
+Grid scores on train set:
+
+0.448 (+/-0.023) for {'var_smoothing': 10}
+0.754 (+/-0.005) for {'var_smoothing': 1}
+0.740 (+/-0.003) for {'var_smoothing': 0.1}
+0.730 (+/-0.004) for {'var_smoothing': 0.01}
+0.727 (+/-0.004) for {'var_smoothing': 0.001}
+0.726 (+/-0.004) for {'var_smoothing': 0.0001}
+0.726 (+/-0.003) for {'var_smoothing': 1e-05}
+0.726 (+/-0.003) for {'var_smoothing': 1e-06}
+0.726 (+/-0.003) for {'var_smoothing': 1e-07}
+0.726 (+/-0.003) for {'var_smoothing': 1e-08}
+0.726 (+/-0.003) for {'var_smoothing': 1e-09}
+0.726 (+/-0.003) for {'var_smoothing': 1e-10}
+
+Detailed classification report for the best parameter set:
+
+The model is trained on the full train set.
+The scores are computed on the full test set.
+
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.96      0.88     54990
+         1.0       0.51      0.33      0.40      6458
+         2.0       0.94      0.41      0.57     13929
+
+    accuracy                           0.80     75377
+   macro avg       0.75      0.57      0.62     75377
+weighted avg       0.81      0.80      0.78     75377
+
+
+
+
+execution time : 0:02:02.358903
+
+----------------------------------------
+Trying model Linear Perceptron   
+
+Best parameters set found on train set:
+
+{'early_stopping': True}
+
+Grid scores on train set:
+
+0.767 (+/-0.062) for {'early_stopping': True}
+
+Detailed classification report for the best parameter set:
+
+The model is trained on the full train set.
+The scores are computed on the full test set.
+
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.97      0.90     54990
+         1.0       0.52      0.39      0.44      6458
+         2.0       0.98      0.51      0.67     13929
+
+    accuracy                           0.83     75377
+   macro avg       0.78      0.62      0.67     75377
+weighted avg       0.84      0.83      0.82     75377
+
+
+
+
+execution time : 0:02:37.514822
+
+----------------------------------------
+Trying model Random Forest Classifier
+
+Best parameters set found on train set:
+
+{'max_depth': 17}
+
+Grid scores on train set:
+
+0.587 (+/-0.002) for {'max_depth': 1}
+0.578 (+/-0.002) for {'max_depth': 2}
+0.574 (+/-0.003) for {'max_depth': 3}
+0.784 (+/-0.003) for {'max_depth': 4}
+0.788 (+/-0.002) for {'max_depth': 5}
+0.792 (+/-0.003) for {'max_depth': 6}
+0.796 (+/-0.002) for {'max_depth': 7}
+0.800 (+/-0.003) for {'max_depth': 8}
+0.804 (+/-0.002) for {'max_depth': 9}
+0.806 (+/-0.002) for {'max_depth': 10}
+0.810 (+/-0.003) for {'max_depth': 11}
+0.813 (+/-0.003) for {'max_depth': 12}
+0.815 (+/-0.003) for {'max_depth': 13}
+0.816 (+/-0.003) for {'max_depth': 14}
+0.817 (+/-0.005) for {'max_depth': 15}
+0.817 (+/-0.005) for {'max_depth': 16}
+0.817 (+/-0.004) for {'max_depth': 17}
+0.817 (+/-0.003) for {'max_depth': 18}
+0.817 (+/-0.004) for {'max_depth': 19}
+0.816 (+/-0.005) for {'max_depth': 20}
+0.815 (+/-0.005) for {'max_depth': 21}
+0.814 (+/-0.005) for {'max_depth': 22}
+0.813 (+/-0.003) for {'max_depth': 23}
+0.814 (+/-0.006) for {'max_depth': 24}
+
+Detailed classification report for the best parameter set:
+
+The model is trained on the full train set.
+The scores are computed on the full test set.
+
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.96      0.93     54990
+         1.0       0.64      0.35      0.46      6458
+         2.0       0.91      0.88      0.90     13929
+
+    accuracy                           0.89     75377
+   macro avg       0.82      0.73      0.76     75377
+weighted avg       0.88      0.89      0.88     75377
+
+
+
+
+execution time : 0:41:40.845284
+
+----------------------------------------
+Trying model Support Vector      
+Best parameters set found on train set:
+
+{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+
+Grid scores on train set:
+
+0.807 (+/-0.003) for {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}
+0.815 (+/-0.004) for {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+0.815 (+/-0.007) for {'C': 1, 'kernel': 'linear'}
+0.811 (+/-0.002) for {'C': 10, 'kernel': 'linear'}
+0.809 (+/-0.003) for {'C': 100, 'kernel': 'linear'}
+
+Detailed classification report for the best parameter set:
+
+The model is trained on the full train set.
+The scores are computed on the full test set.
+
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.96      0.93     36525
+         1.0       0.64      0.30      0.41      4226
+         2.0       0.90      0.88      0.89      9433
+
+    accuracy                           0.89     50184
+   macro avg       0.81      0.71      0.74     50184
+weighted avg       0.88      0.89      0.88     50184
+
+
+
+execution time : 1:37:29.341459
+
+
+Summary of results for precision
+Estimators
+Decision Tree       	 - score: 79.04%
+Gaussian Naive Bayes	 - score: 75.42%
+Linear Perceptron   	 - score: 76.66%
+Random Forest Classifier	 - score: 81.75%
+Support Vector      	 - score: 81.54%
+
+

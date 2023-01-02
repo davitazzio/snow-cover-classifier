@@ -1,0 +1,15 @@
+aenum==3.1.11
+bokeh==3.0.3
+eo_learn_visualization==1.3.1
+Fiona==1.8.22
+geopandas==0.12.2
+ipywidgets==8.0.4
+matplotlib==3.6.2
+numpy==1.23.5
+pandas==1.5.2
+pyproj==3.4.1
+rasterio==1.3.4
+scikit_learn==1.2.0
+sentinelhub==3.8.0
+shapely==2.0.0
+tqdm==4.64.1
