@@ -9,6 +9,10 @@
   \
 **Version mismatch between code and project report:** _the use of __Support Vector Classifier__ and __Random Forest Classifier__ to train the model is not present in the report and is not include in final evaluation, because it was added to the project after the report redaction._
 
+## Usage: 
+
+Sentinel-hub data are not uploaded on github: to use the visualization web application is necessary to execute the whole code, including the images download.
+
 ## Abstract: 
   This paper reports the work and the consequent consideration on a
   satellite images classifier, specified on the recognition and the
