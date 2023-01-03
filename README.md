@@ -7,7 +7,7 @@
   `davide.tazzioli@studio.unibo.it`
   \
   \
-**Version mismatch between code and project report:** _the use of __Support Vector Classifier__ and __Random Forest Classifier__ to train the model is not present in the report and is not include in final evaluation, because it was added to the project after the report redaction._
+**Last update** _January 2023_
 
 ## Usage: 
 
