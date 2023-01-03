@@ -11,10 +11,10 @@
 
 ## Usage: 
 
-Sentinel-hub data are not uploaded on github: to use the visualization web application is necessary to execute the whole code, including the images download.\ 
-Ground truth data are available here: **(only people in University of Bologna)**\ https://liveunibo-my.sharepoint.com/:f:/g/personal/davide_tazzioli_studio_unibo_it/EjvXFvW31GRDjofT59b1NZQBpWclOEBas9A7Mf7V_aZ7Rw?e=dDXEnJ 
+Sentinel-hub data are not uploaded on github: to use the visualization web application is necessary to execute the whole code, including the images download. \ 
+Ground truth data are available here: **(only people in University of Bologna)** \ https://liveunibo-my.sharepoint.com/:f:/g/personal/davide_tazzioli_studio_unibo_it/EjvXFvW31GRDjofT59b1NZQBpWclOEBas9A7Mf7V_aZ7Rw?e=dDXEnJ 
 
-The original size report is available here: **(only people in University of Bologna)**\
+The original size report is available here: **(only people in University of Bologna)** \
 https://liveunibo-my.sharepoint.com/:b:/g/personal/davide_tazzioli_studio_unibo_it/EZ21idXcF6hBm84vpWoLiJUBXgd8IUA5rPE31hGINeUcdQ?e=Usyik1
 
 
